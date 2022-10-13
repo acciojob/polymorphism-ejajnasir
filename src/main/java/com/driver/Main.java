@@ -20,10 +20,10 @@ static class Product{
 }
 public static void main(String args[])
 {
-    Product pro = new Product();
-    pro.product(4,3);
-    pro.product(4,3,5);
-    pro.product(4.0,3.0);
+    Product p = new Product();
+    p.product(4,3);
+    p.product(4,3,5);
+    p.product(4.0,3.0);
 
 }
 }
